@@ -1,0 +1,30 @@
+h1
+  {
+    text-align: center;
+  }
+
+h2
+  {
+    text-align: center;
+  }
+
+main
+  {
+    background-image: url("./rainforest.jpg");
+  }
+
+p
+  {
+    color: white;
+  }
+
+#quote
+    {
+      display: block;
+      text-align: center;
+    }
+
+footer
+  {
+    align-content: center;
+  }
