@@ -1,154 +1,162 @@
-
 <!doctype html>
 <html>
-<head>
-  <title>Markdown</title>
-</head>
-<body>
-<h1>Le Markdown</h1>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/800px-Markdown-mark.svg.png"></img>
-
-
-
-<p>Le Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d' Aaron Swartz.<br>
-
-C’est une syntaxe minimale permettant d’écrire du texte pour le web, puis de le convertir en HTML. <br>
-
-Elle a été adoptée par des sites comme StackOverflow, Github (pour la rédaction de commentaires, ou dans le README). <br>
-
-Depuis 2016, WordPress.com permet d’écrire en MarkDown.</p>
-
-<h2> Pourquoi le Markdown? </h2>
-
-1. Facile et rapide <br>
-2. Rendu et syntaxe faciles à lire <br>
-3. Très leger <br>
-4. Utilisé pour les README sur github <br>
-
-<hr>
-<h2> Comment faire une liste à puces sur Markdown </h2>
-<h3> Liste des étudiants de mon groupe </h3>
-<ul>
-<li>thomas</li>
-<li>calvin</li>
-<li>julien</li>
-</ul>
-<hr>
-<h2> Faire une liste numérotée </h2>
-<h3> Liste de nos boissons </h3>
-
-<ol>
-<li>Jus d'orange pour julien</li>
-<li>coca-cola pour thomas</li>
-<li>eau pour calvin</li>
-</ol>
-<hr>
-<h2> Et voila les differents niveaux de titre </h2>
-<h3> le 3 </h3>
-<h4> le 4 </h4>
-<h5> le 5 </h5>
-<hr>
-
-<h2> Mettre en gras </h2>
-
-<p>pour mettre en gras il faut utiliser **...** <br>
-<br>
-exemple: **Calvin** cherche la maniere la plus efficace d'utiliser son temps.</p>
-<br>
-<hr>
-
-<h3> Liste imbriquée </h3>
-
-<ul>
-  <li>item 1</li>
-  <li>item 2
-    <ul>
-      <li>sub-item 2.1</li>
-      <li>sub-item 2.2</li>
-    </ul>
-  </li>
-  <li>item 3</li>
-</ul>
-
-
-<h3> Colorisation Syntaxique </h3>
-
-<p>Pour afficher du code avec le code couleur, comme ceci :</p>
-
-<p>``` javascript<br>
-<script type="text/javascript"><br>
-    alert("Hello!");<br>
-</script><br>
-```</p>
-
-<p>Il faut placer le code entre 3 guillemets simples et rajouter le langage utilisé et finir pas 3 guillemets </p>
-
-<img src="https://i.imgur.com/m6VlWgK.png"></img>
-
-<hr>
-
-
-<h2> Comment insérer un lien dans un document Markdown </h2>
-
-
-<p>Pour créer un lien dans un fichier Markdown:<br>
-- écrire le texte du lien entre crochet (ex.,[Giphy])<br>
-- suivi par l'url du lien entre parenthèses (ex.,(https://giphy.com/))</p>
-
-<em>Syntaxe finale</em>
- <p>J'adore aller sur [giphy](https://giphy.com/)</p>
-
-
-
-<hr>
-<h2> Comment insérer une image statique ou animée dans un document Markdown </h2>
-
-
-<p>Pour insérer une image ou un gif dans un fichier Markdown:</p><br>
-
-<ul>
-<li> Pour commencer insérer un "!" </li>
-<li> Suivi de [ ] pour indiquer le nom de l'image</li>
-<li> Enfin ( ) dans lequel il faut coller l'url de l'image ou gif à inséré.</li>
-</ul>
-
- <em>Syntaxe finale</em><br>
-
-```"![nom de l'image](url de l'image ou gif)"```
-<br>
-
-Ceci est une image:<br>
-
-![I see links](https://authority.builders/blog/wp-content/uploads/2019/10/i-see-links-everywhere-meme-1024x866.jpg)
-<br>
-Ceci est un GIF:
-
-<br>
-![Ours](https://media.giphy.com/media/lPX7Ut3uGdRjfeY5gu/giphy.gif)
-<hr>
-<h2>Comment insérer un blockquote ou bloc de citation</h2>
-
-- Pour créer un "bloc de citation", insérer un ">" au début d'un paragraphe.<br>
-
-```>Pour créer un "bloc de citation", insérer un ">" au début d'un paragraphe.```<br>
-
-et voici le résultat affiché :<br>
-
->Pour créer un "bloc de citation", insérer un ">" au début d'un paragraphe<br>
-
-<h3> Comment créer un bloc de citations avec plusieurs paragraphes</h3>
-
-- Ajouter un ">" sur les lignes vides entre les paragraphes<br>
-
-![example](https://i.imgur.com/y53A6gQ.png)<br>
-
-et voici le résulat affiché:<br>
-
->Pour créer un "bloc de citation", insérer un ">" au début d'un paragraphe.<br>
->
->voici le second paragraphe<br>
-
-<hr>
-</body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Markdown</title>
+	</head>
+	<body>
+		<h1>Le Markdown</h1>
+		<img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/800px-Markdown-mark.svg.png">
+		</img>
+		<br>
+		<br>
+		<p>
+			Le Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d' Aaron Swartz.
+			<br>
+			C’est une syntaxe minimale permettant d’écrire du texte pour le web, puis de le convertir en HTML.
+			<br>
+			Elle a été adoptée par des sites comme StackOverflow, Github (pour la rédaction de commentaires, ou dans le README).
+			<br>
+			Depuis 2016, WordPress.com permet d’écrire en MarkDown.
+		</p>
+		<h2> Pourquoi le Markdown? </h2>
+		1. Facile et rapide
+		<br>
+		2. Rendu et syntaxe faciles à lire
+		<br>
+		3. Très leger
+		<br>
+		4. Utilisé pour les README sur github
+		<br>
+		<hr>
+		<h2> Comment faire une liste à puces sur Markdown </h2>
+		<h3> Liste des étudiants de mon groupe </h3>
+		<ul>
+			<li>thomas</li>
+			<li>calvin</li>
+			<li>julien</li>
+		</ul>
+		<hr>
+		<h2> Faire une liste numérotée </h2>
+		<h3> Liste de nos boissons </h3>
+		<ol>
+			<li>Jus d'orange pour julien</li>
+			<li>coca-cola pour thomas</li>
+			<li>eau pour calvin</li>
+		</ol>
+		<hr>
+		<h2> Et voila les differents niveaux de titre </h2>
+		<h3> le 3 </h3>
+		<h4> le 4 </h4>
+		<h5>
+			 le 5
+		</h5>
+		<hr>
+		<h2> Mettre en gras </h2>
+		<p>
+			pour mettre en gras il faut utiliser **...**
+			<br>
+			<br>
+			exemple: **Calvin** cherche la maniere la plus efficace d'utiliser son temps.
+		</p>
+		<br>
+		<hr>
+		<h3> Liste imbriquée </h3>
+		<ul>
+			<li>item 1</li>
+			<li>
+				item 2
+				<ul>
+					<li>sub-item 2.1</li>
+					<li>sub-item 2.2</li>
+				</ul>
+			</li>
+			<li>item 3</li>
+		</ul>
+		<h3> Colorisation Syntaxique </h3>
+		<p>
+			Pour afficher du code avec le code couleur, comme ceci :
+		</p>
+		<p>
+			``` javascript
+			<br>
+			<script type="text/javascript">
+				<br>alert("Hello!");
+			</script>
+			<br>
+			```
+		</p>
+		<p>
+			Il faut placer le code entre 3 guillemets simples et rajouter le langage utilisé et finir pas 3 guillemets
+		</p>
+		<img src="https://i.imgur.com/m6VlWgK.png">
+		</img>
+		<hr>
+		<h2> Comment insérer un lien dans un document Markdown </h2>
+		<p>
+			Pour créer un lien dans un fichier Markdown:
+			<br>
+			- écrire le texte du lien entre crochet (ex.,[Giphy])
+			<br>
+			- suivi par l'url du lien entre parenthèses (ex.,(https://giphy.com/))
+		</p>
+		<em>Syntaxe finale</em>
+		<p>
+			J'adore aller sur [giphy](https://giphy.com/)
+		</p>
+		<hr>
+		<h2> Comment insérer une image statique ou animée dans un document Markdown </h2>
+		<p>
+			Pour insérer une image ou un gif dans un fichier Markdown:
+		</p>
+		<br>
+		<ul>
+			<li> Pour commencer insérer un "!" </li>
+			<li> Suivi de [ ] pour indiquer le nom de l'image</li>
+			<li> Enfin ( ) dans lequel il faut coller l'url de l'image ou gif à inséré.</li>
+		</ul>
+		<em>Syntaxe finale</em>
+		<br>
+		```"![nom de l'image](url de l'image ou gif)"```
+		<br>
+		Ceci est une image:
+		<br>
+		![I see links](https://authority.builders/blog/wp-content/uploads/2019/10/i-see-links-everywhere-meme-1024x866.jpg)
+		<br>
+		Ceci est un GIF:
+		<br>
+		![Ours](https://media.giphy.com/media/lPX7Ut3uGdRjfeY5gu/giphy.gif)
+		<hr>
+		<h2>Comment insérer un blockquote ou bloc de citation</h2>
+		<p id="test">
+			- Pour créer un "bloc de citation", insérer un ">
+			" au début d'un paragraphe.
+			<br>
+			```>
+			Pour créer un "bloc de citation", insérer un ">
+			" au début d'un paragraphe.```
+			<br>
+			et voici le résultat affiché :
+			<br>
+			Pour créer un "bloc de citation", insérer un ">
+			" au début d'un paragraphe
+			<br>
+		</p>
+		<h3> Comment créer un bloc de citations avec plusieurs paragraphes</h3>
+		<p class="test">
+			- Ajouter un ">
+			" sur les lignes vides entre les paragraphes
+			<br>
+			![example](https://i.imgur.com/y53A6gQ.png)
+			<br>
+			et voici le résulat affiché:
+			<br>
+			Pour créer un "bloc de citation", insérer un ">
+			" au début d'un paragraphe.
+			<br>
+			voici le second paragraphe
+			<br>
+		</p>
+		<hr>
+	</body>
 </html>

@@ -1,0 +1,73 @@
+
+.test /* modificateur "blockquote plusieurs paragraphes" */
+
+{
+	font-size: 34px;
+	font-family: Times;
+	text-decoration: line-through;
+	color: blue;
+}
+
+#test /* Modificateur blockquote */
+
+{
+	font-size: 45px;
+	font-family: serif;
+	text-decoration-style: wavy;
+}
+
+img.logo /* Centrer le logo */
+
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul /* Modificateur liste non ordonnée */
+
+{
+	list-style-type: square;
+	color: green;
+}
+
+ol /* Modificateur liste ordonnée */
+
+{
+	list-style-type: upper-roman;
+}
+
+p /* Modificateur paragraphes */
+
+{
+	color:#75FFE3;
+	font-family:Arial;
+	font-size: 16px;
+}
+
+h1 /* Modificateur titre 1 */
+
+{
+	color:#83FFA0;
+	font-size: 26px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 /* Modificateur titre 2 */
+
+{
+	color:#72E86B;
+	font-size: 23px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h3 /* Modificateur titre 3 */
+
+{
+	color:#AEFF75;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+}
